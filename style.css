@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', Brush Script MT;
+}
+.cabecalho {
+    background-color: #A020F0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.produtos-imagem{
+    width: 25%;
+}
+
+.produtos{
+    background-image: linear-gradient(#4B0082,#FF69B4);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.produtos-div-conteudo{
+    width: 35%;
+}
+
+
+.pelucia-titulo{
+    padding: 24px 0;
+}
+
+.pelucia{
+    padding: 24px 0;
+}
+.pelucia-imagem{
+    width: 120px;
+}
+
+.pelucia-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.pelucia-div{
+    text-align: center;
+    padding: 16px 0;
+}
